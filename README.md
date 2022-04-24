@@ -11,5 +11,7 @@ I have used dummy data for run quries that is https://github.com/graphql-compose
 
 # Application load time
 
+# Deployment
+I have deployed this application in vercel that is https://atlan-task.vercel.app/
 
 
