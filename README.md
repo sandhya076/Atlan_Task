@@ -19,6 +19,8 @@ I have used dummy data for run quries that is https://github.com/graphql-compose
 
 # Application load time
 The time taken for the website to get interactive is 1.9sec, for measuring this I have used web.dev tool.
+![Screenshot (403)](https://user-images.githubusercontent.com/56761765/164986467-21c8c5f1-ba36-43ab-ada6-93ab54f5d853.png)
+
 
 
 # Deployment
