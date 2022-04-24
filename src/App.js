@@ -79,7 +79,7 @@ export default function App() {
   const [query, setQuiery] = useState("");
 
   const handleChange = (event) => {
-    setAge(event.target.value);
+    setQuiery(event.target.value);
   };
   return (
     <>
