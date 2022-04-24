@@ -18,6 +18,8 @@ This is a application which takes the SQL quries as a input and displays the app
 I have used dummy data for run quries that is https://github.com/graphql-compose/graphql-compose-examples/blob/master/examples/northwind/data/csv/territories.csv.
 
 # Application load time
+The time taken for the website to get interactive is 1.9sec, for measuring this I have used web.dev tool.
+
 
 # Deployment
 I have deployed this application in vercel that is https://atlan-task.vercel.app/
