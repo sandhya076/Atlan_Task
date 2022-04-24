@@ -74,6 +74,17 @@ export default function App() {
       territoryDescription: "Edison",
       regionID: "3",
     },
+    {
+      territoryID: "14450",
+      territoryDescription: "Fairport",
+      regionID: "1",
+    },
+    {
+      territoryID: "19428",
+      territoryDescription: "Philadelphia",
+      regionID: "3",
+    },
+    
   ];
   const [result, setResult] = useState("");
   const [query, setQuiery] = useState("");
