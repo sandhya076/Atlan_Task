@@ -144,10 +144,10 @@ export default function App() {
                               {result === 10 ? (
                                 <>
                                   <TableCell align="center">
-                                    territoryID
+                                    <h3> territoryID </h3>
                                   </TableCell>
                                   <TableCell align="center">
-                                    territoryDescription
+                                   <h3> territoryDescription </h3>
                                   </TableCell>
                                   <TableCell align="center">regionID</TableCell>
                                 </>
@@ -156,7 +156,7 @@ export default function App() {
                                   {result === 20 ? (
                                     <>
                                       <TableCell align="center">
-                                        territoryID
+                                        <h3> territoryID </h3>
                                       </TableCell>
                                     </>
                                   ) : (
@@ -164,7 +164,7 @@ export default function App() {
                                       {result === 30 ? (
                                         <>
                                           <TableCell align="center">
-                                            territoryDescription
+                                            <h3> territoryDescription </h3>
                                           </TableCell>
                                         </>
                                       ) : (
