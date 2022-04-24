@@ -76,7 +76,7 @@ export default function App() {
     },
   ];
   const [result, setResult] = useState("");
-  const [age, setAge] = useState("");
+  const [query, setQuiery] = useState("");
 
   const handleChange = (event) => {
     setAge(event.target.value);
@@ -102,7 +102,7 @@ export default function App() {
                     <Grid xs={12} sm={6} item>
                       <FormControl sx={{ minWidth: 545 }} label="Query">
                         <Select
-                          value={age}
+                          value={query}
                           onChange={handleChange}
                           displayEmpty
                           inputProps={{ "aria-label": "Without label" }}
@@ -125,7 +125,7 @@ export default function App() {
                         variant="contained"
                         color="primary"
                         onClick={() => {
-                          setResult(age);
+                          setResult(query);
                           console.log(result);
                         }}
                       >
@@ -149,7 +149,7 @@ export default function App() {
                                   <TableCell align="center">
                                    <h3> territoryDescription </h3>
                                   </TableCell>
-                                  <TableCell align="center">regionID</TableCell>
+                                  <TableCell align="center"> <h3>regionID</h3></TableCell>
                                 </>
                               ) : (
                                 <>
